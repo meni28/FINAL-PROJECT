@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Lato:ital,wght@0,400;1,400&family=Jockey+One&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #d40000;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Jockey One', sans-serif;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #7f7f7f;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+nav ul li a.active, nav ul li a:hover {
+    color: black;
+}
+
+main {
+    flex-grow: 1;
+    margin: 20px 50px;
+}
+
+.list-container {
+    max-height: 1000px; /* Set max height for scrolling */
+    overflow-y: auto; /* Enable vertical scrolling */
+    margin-bottom: 20px;
+    border: 1px solid #d40000;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+thead th {
+    background-color: white;
+    color: #d40000;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 2px solid #d40000;
+    position: sticky; /* Make the header sticky */
+    top: 0; /* Stick the header to the top */
+    z-index: 1; /* Ensure the header stays above the table rows */
+}
+
+tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #d40000;
+}
+
+/* Footer styling */
+footer.author-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 50px;
+    text-align: right;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.author {
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    color: #d40000;
+    font-size: 1em;
+    margin: 0;
+}
+
+.author a {
+    color: #d40000;
+    text-decoration: none;
+}
+
+.author a:hover {
+    text-decoration: underline;
+}
