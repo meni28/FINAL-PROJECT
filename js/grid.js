@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     for (let i = 1; i <= numberOfImages; i++) {
         const img = document.createElement('img');
         const imgNumber = String(i).padStart(3, '0'); // Pad numbers with leading zeros (e.g., 001)
-        const imgPath = `https://meni28.github.io/Main/Images/${imgNumber}.jpeg`;
+        const imgPath = `Images/${imgNumber}.jpeg`;
 
         // Check if the image exists
         img.src = imgPath;

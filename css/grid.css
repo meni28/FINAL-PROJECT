@@ -45,9 +45,6 @@ nav ul li a.active, nav ul li a:hover {
 main {
     flex-grow: 1;
     margin: 20px 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end; /* Align content to the bottom */
 }
 
 .title-container {
@@ -70,7 +67,7 @@ h1 span {
 }
 
 /* Specific to Grid Layout */
-main.grid-container {
+main .grid-container {
     position: relative;
     height: 600px;
     width: 100%;
