@@ -46,7 +46,7 @@ main {
 }
 
 .list-container {
-    max-height: 1000px; /* Set max height for scrolling */
+    max-height: 700px; /* Set max height for scrolling */
     overflow-y: auto; /* Enable vertical scrolling */
     margin-bottom: 20px;
     border: 1px solid #d40000;

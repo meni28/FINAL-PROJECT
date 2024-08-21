@@ -42,7 +42,8 @@ nav ul li a.active, nav ul li a:hover {
 
 main {
     flex-grow: 1;
-    margin: 20px 50px; /* Margin for the main content */
+    margin: 20px 50px;
+    padding-bottom: 100px; /* Add space to prevent content from being cut off by the footer */
 }
 
 .title-container {
