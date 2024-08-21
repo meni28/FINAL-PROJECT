@@ -44,12 +44,7 @@ nav ul li a.active, nav ul li a:hover {
 
 /* Main Content Styles */
 main {
-    flex-grow: 1;
-    margin: 0 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    height: 100%;
+    margin: 20px 50px;
 }
 
 .title-container {
@@ -71,8 +66,8 @@ h1 span {
     display: inline;
 }
 
-/* Grid Layout */
-.grid-container {
+/* Specific to Grid Layout */
+main .grid-container {
     position: relative;
     width: 100%;
     height: calc(100vh - 150px - 70px); /* Adjust grid height: viewport - header - timeline and author */
